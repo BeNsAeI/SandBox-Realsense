@@ -1,0 +1,9 @@
+﻿Build started 9/14/2016 1:46:08 PM.
+     1>Project "C:\Program Files (x86)\Intel\RSSDK\sample\SandBox\DF_CameraViewer_vs2010.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         DF_CameraViewer_vs2010.vcxproj -> C:\Program Files (x86)\Intel\RSSDK\sample\SandBox\bin/x64/DF_CameraViewer_d.exe
+     1>Done Building Project "C:\Program Files (x86)\Intel\RSSDK\sample\SandBox\DF_CameraViewer_vs2010.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.28

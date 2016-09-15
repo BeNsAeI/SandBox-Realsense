@@ -1,0 +1,21 @@
+﻿Build started 2/23/2016 10:45:33 AM.
+     1>Project "C:\Program Files (x86)\Intel\RSSDK\sample\DF_CameraViewer\DF_CameraViewer_vs2013.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\opencv\build\include /IC:\opencv\build\include\opencv2 /IC:\opencv\build\include\opencv /I. /Iinclude /Ires /I../common/include /I../../include /I"C:\Program Files (x86)\Intel\RSSDK\/include" /I"C:\Program Files (x86)\Intel\RSSDK\/sample/common/include" /Z7 /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _WIN32_WINNT=0x0602 /D _UNICODE /D UNICODE /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"build/Win32_Debug/DF_CameraViewer/" /Gd /TP /analyze- /errorReport:prompt Src\camera_viewer.cpp
+         camera_viewer.cpp
+     1>C:\Program Files (x86)\Intel\RSSDK\sample\DF_CameraViewer\Const.h(4): warning C4005: '_WIN32_WINNT' : macro redefinition
+                 command-line arguments :  see previous definition of '_WIN32_WINNT'
+     1>Src\camera_viewer.cpp(25): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>Src\camera_viewer.cpp(251): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>Src\camera_viewer.cpp(37): warning C4101: 'd' : unreferenced local variable
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /I. /Iinclude /Ires /I../common/include /I../../include /I"C:\Program Files (x86)\Intel\RSSDK\/include" /I"C:\Program Files (x86)\Intel\RSSDK\/sample/common/include" /nologo /fo"build/Win32_Debug/DF_CameraViewer/camera_viewer.res" camera_viewer.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin/Win32/DF_CameraViewer_d.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\opencv\build\x86\vc12\lib /LIBPATH:../common/lib/Win32/v120 /LIBPATH:../../lib/Win32 /LIBPATH:"C:\Program Files (x86)\Intel\RSSDK\/lib/Win32" /LIBPATH:"C:\Program Files (x86)\Intel\RSSDK\/sample/common/lib/Win32/v120" libpxc_d.lib libpxcutils_d.lib opencv_ts300d.lib opencv_world300d.lib opencv_ts300.lib opencv_world300.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmt.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"bin/Win32/DF_CameraViewer_d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"bin/Win32/DF_CameraViewer_d.lib" /MACHINE:X86 /SAFESEH build/Win32_Debug/DF_CameraViewer/camera_viewer.res
+         build/Win32_Debug/DF_CameraViewer/camera_viewer.obj
+         DF_CameraViewer_vs2013.vcxproj -> C:\Program Files (x86)\Intel\RSSDK\sample\DF_CameraViewer\bin/Win32/DF_CameraViewer_d.exe
+     1>Done Building Project "C:\Program Files (x86)\Intel\RSSDK\sample\DF_CameraViewer\DF_CameraViewer_vs2013.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.23
